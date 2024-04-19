@@ -1,0 +1,91 @@
+body{
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+    margin: 1;
+    padding: 0;
+}
+header {
+    background-color: #8f1867;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.cover[value="1"]{
+    color: #720b0b;
+    padding: 20px 0;
+    text-align: center;
+}
+.city[value="2"]{
+    color: #720b0b;
+    padding: 20px 0;
+    text-align:center;
+    display:flex;
+}
+
+.box{
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#outer-box{
+    border: 1px solid;
+    width: px;
+    height: 260px;
+    padding: 7px;
+    background-image: url(./assets/images/background2.jpg);
+    border-radius: 25px;
+}
+
+*h1{
+    color: rgb(190, 135, 109);
+    margin: 0;
+    font-size: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+#place {
+    width: calc(50% - 20px); 
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.place img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.place .info {
+    padding: 20px;
+}
+.place h2 {
+    margin-top: 0;
+    color: #921e05;
+}
+.place p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #a071a0;
+    color: #f8f1f1;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
